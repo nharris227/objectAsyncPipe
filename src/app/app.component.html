@@ -1,0 +1,7 @@
+<app-progress-bar-determinate
+  [progressBarData]="progressBarData$ | async"
+  [loading]="loading$ | async"
+></app-progress-bar-determinate>
+<button (click)="start()">START</button>
+<br />
+<button (click)="stop()">Change Units</button>
